@@ -2,9 +2,9 @@ const IS_DEV = process.env.APP_VARIANT === 'development'
 
 module.exports = {
     expo: {
-        name: IS_DEV ? 'ChatterUI (DEV)' : 'ChatterUI',
+        name: IS_DEV ? 'amlan (DEV)' : 'amlan',
         newArchEnabled: true,
-        slug: 'ChatterUI',
+        slug: 'amlan',
         version: '0.8.6',
         orientation: 'default',
         icon: './assets/images/icon.png',
@@ -96,7 +96,7 @@ module.exports = {
                 origin: false,
             },
             eas: {
-                projectId: 'd588a96a-5eb0-457a-85bc-e21acfdc60e9',
+                projectId: 'f1b50752-14f2-4bd4-ac68-aa0994b31397',
             },
         },
     },
